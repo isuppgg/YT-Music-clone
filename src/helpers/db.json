@@ -1,0 +1,60 @@
+{
+   "playlists": [
+      {
+         "name": "Inglich",
+         "thumbnail": "https://yt3.ggpht.com/PdJGVLh2pg2X8v_PYLnhVa50rS50XFOKZ15mG9VyuqmbMm7PZ8QoilM8gEIEQ9ClXJG3S2kU9w=s576",
+         "type": "Playlist",
+         "author": "Oswaldo Gonzalez",
+         "length": 246
+      },
+      {
+         "name": "Rock en español",
+         "thumbnail": "https://yt3.ggpht.com/gqtWj1uDgLphrNvATDe67CZFUxuknCkEPN3ZI10ofwvkwHdnSrESCWR2faYqLEB1Oy5sCmjzVZg=s576",
+         "type": "Playlist",
+         "author": "Oswaldo Gonzalez",
+         "length": 86
+      },
+      {
+         "name": "Enjambre",
+         "thumbnail": "https://yt3.ggpht.com/LDnMNMdvq76uvdUu-Co2-WgetQhC5g6vLcYi_SSoG0CRAd2DEfyR92bcy7s6aXZ-z0RTqAvhhFk=s576",
+         "type": "Playlist",
+         "author": "Oswaldo Gonzalez",
+         "length": 76
+      },
+      {
+         "name": "'THE' playlist",
+         "thumbnail": "https://yt3.ggpht.com/Y4xDoXyN5ykDLUJF4u4QBBRS7vUiHywSpv9_xmoa8LbYlkZ9Qwex3VtZcru-PJemC03owMc4x2c=s576",
+         "type": "Playlist",
+         "author": "Oswaldo Gonzalez",
+         "length": 165
+      },
+      {
+         "name": "Inglich",
+         "thumbnail": "https://yt3.ggpht.com/PdJGVLh2pg2X8v_PYLnhVa50rS50XFOKZ15mG9VyuqmbMm7PZ8QoilM8gEIEQ9ClXJG3S2kU9w=s576",
+         "type": "Playlist",
+         "author": "Oswaldo Gonzalez",
+         "length": 246
+      },
+      {
+         "name": "Rock en español",
+         "thumbnail": "https://yt3.ggpht.com/gqtWj1uDgLphrNvATDe67CZFUxuknCkEPN3ZI10ofwvkwHdnSrESCWR2faYqLEB1Oy5sCmjzVZg=s576",
+         "type": "Playlist",
+         "author": "Oswaldo Gonzalez",
+         "length": 86
+      },
+      {
+         "name": "Enjambre",
+         "thumbnail": "https://yt3.ggpht.com/LDnMNMdvq76uvdUu-Co2-WgetQhC5g6vLcYi_SSoG0CRAd2DEfyR92bcy7s6aXZ-z0RTqAvhhFk=s576",
+         "type": "Playlist",
+         "author": "Oswaldo Gonzalez",
+         "length": 76
+      },
+      {
+         "name": "'THE' playlist",
+         "thumbnail": "https://yt3.ggpht.com/Y4xDoXyN5ykDLUJF4u4QBBRS7vUiHywSpv9_xmoa8LbYlkZ9Qwex3VtZcru-PJemC03owMc4x2c=s576",
+         "type": "Playlist",
+         "author": "Oswaldo Gonzalez",
+         "length": 165
+      }
+   ]
+}

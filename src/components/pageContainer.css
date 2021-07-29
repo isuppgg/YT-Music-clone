@@ -1,0 +1,12 @@
+.page-container {
+   background-color: #030303;
+   color: #fff;
+   min-height: 100vh;
+   padding: 100px 0;
+}
+
+.main-content {
+   width: 82%;
+   overflow-x: hidden;
+   margin: 0 auto;
+}

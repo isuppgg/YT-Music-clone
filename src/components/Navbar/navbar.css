@@ -1,0 +1,9 @@
+.navbar-wrapper {
+   position: fixed;
+   top: 0;
+   width: 100%;
+   color: #fff;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
