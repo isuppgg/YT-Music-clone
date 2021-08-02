@@ -1,8 +1,12 @@
 import React from 'react';
 
 const NextSong = () => {
+   const handleNextSong = e => {
+      e.stopPropagation();
+   };
+
    return (
-      <button>
+      <button onClick={handleNextSong}>
          <svg
             xmlns='http://www.w3.org/2000/svg'
             width='24'

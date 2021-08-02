@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useIsPlaying } from '../../hooks/useIsPlaying';
 import PrevSong from './PrevSong';
 import PausePlayBtn from './PausePlayBtn';
@@ -7,11 +7,11 @@ import Info from './Info';
 import './reproductor.css';
 import RightControls from './RightControls';
 
-const Reproductor = () => {
+const Reproductor = ({ changeVisibility }) => {
    const { isPlaying, play, pause } = useIsPlaying();
 
    return (
-      <div className='reproductor-wrapper'>
+      <div className='reproductor-wrapper' onClick={changeVisibility}>
          <div id='left-controls'>
             <PrevSong />
             <PausePlayBtn isPlaying={isPlaying} play={play} pause={pause} />
@@ -21,7 +21,7 @@ const Reproductor = () => {
             <Info />
          </div>
          <div>
-            <RightControls />
+            <RightControls showModal={changeVisibility} />
          </div>
       </div>
    );

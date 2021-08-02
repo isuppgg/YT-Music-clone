@@ -1,8 +1,14 @@
 import React from 'react';
 
 const Like = ({ hover }) => {
+   const handleLike = e => {
+      e.stopPropagation();
+   };
    return (
-      <button className={`options-item ${hover && 'item-hover'}`}>
+      <button
+         className={`options-item ${hover && 'item-hover'}`}
+         onClick={handleLike}
+      >
          <svg
             xmlns='http://www.w3.org/2000/svg'
             width='24'

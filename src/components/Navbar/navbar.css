@@ -1,9 +1,45 @@
 .navbar-wrapper {
    position: fixed;
    top: 0;
-   width: 100%;
+   padding: 20px 30px 20px 20px;
+   width: 100vw;
    color: #fff;
    display: flex;
    justify-content: space-between;
    align-items: center;
+   z-index: 100;
+   background-color: #030303;
+}
+
+.nav-active {
+   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-wrapper nav {
+   margin: 0 auto;
+   display: flex;
+   gap: 40px;
+}
+
+.nav-item {
+   font-size: 20px;
+   text-decoration: none;
+   font-weight: 500;
+}
+
+.nav-item.active {
+   color: #fff;
+}
+
+.user {
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   overflow: hidden;
+   cursor: pointer;
+   background-color: red;
+}
+
+.user img {
+   width: 100%;
 }

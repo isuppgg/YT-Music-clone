@@ -1,0 +1,42 @@
+.modal-overlay {
+   position: fixed;
+   width: 100vw;
+   height: calc(100vh - 70px - 74px);
+   top: 0;
+   left: 0;
+   display: flex;
+   align-items: center;
+   background-color: #030303;
+   z-index: 10;
+   transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1) 300ms;
+   transform: translate3d(0, 100vh, 0);
+}
+.modal-overlay.visible {
+   transform: translate3d(0, 70px, 0);
+}
+
+.main-content.modal-content-wrapper {
+   height: 90%;
+   width: 75%;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   place-items: center;
+   position: relative;
+}
+
+.left {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.thumbnail-wrapper {
+   width: 95%;
+   height: 95%;
+}
+
+.thumbnail-wrapper img {
+   width: 100%;
+   object-fit: cover;
+   display: block;
+}

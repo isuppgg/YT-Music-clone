@@ -29,32 +29,111 @@
          "length": 165
       },
       {
-         "name": "Inglich",
-         "thumbnail": "https://yt3.ggpht.com/PdJGVLh2pg2X8v_PYLnhVa50rS50XFOKZ15mG9VyuqmbMm7PZ8QoilM8gEIEQ9ClXJG3S2kU9w=s576",
+         "name": "iSuppYou",
+         "thumbnail": "https://yt3.ggpht.com/9JHwXfGVQmCEn5RXGhLQ-4kst0e9rxqnzXShbuLkMJMP7OGXdT6QkLAA68Hu5efkvcTIEcTG=s576",
          "type": "Playlist",
          "author": "Oswaldo Gonzalez",
-         "length": 246
+         "length": 225
+      }
+   ],
+   "mixes": [
+      {
+         "name": "Mi supermix",
+         "thumbnail": "https://lh3.googleusercontent.com/cmdwwIfGNL7LN2MLvTv94XZTIZ9DO5aRe3SBWjzMS-dtROyYDPym-oHd3j0g5Z4boVmIshT6AkrNTHN7=w226-h226-l90-rj",
+         "artists": "Imagine Dragons, Coldplay, Fools Garden y OMFG",
+         "type": "Mix"
       },
       {
-         "name": "Rock en español",
-         "thumbnail": "https://yt3.ggpht.com/gqtWj1uDgLphrNvATDe67CZFUxuknCkEPN3ZI10ofwvkwHdnSrESCWR2faYqLEB1Oy5sCmjzVZg=s576",
-         "type": "Playlist",
-         "author": "Oswaldo Gonzalez",
-         "length": 86
+         "name": "Mi mix 1",
+         "thumbnail": "https://lh3.googleusercontent.com/86rnA6iqVl4KnxTwnV58VQura_c-1okq2E8yda40crGHEAIJ80U3-aeiCQhl6zb3P19KgtdgBy_1dwE=w226-h226-l90-rj",
+         "artists": "El Cuarteto de Nos, Enjambre, Los Caligaris y No Te Va Gustar",
+         "type": "Mix"
       },
       {
-         "name": "Enjambre",
-         "thumbnail": "https://yt3.ggpht.com/LDnMNMdvq76uvdUu-Co2-WgetQhC5g6vLcYi_SSoG0CRAd2DEfyR92bcy7s6aXZ-z0RTqAvhhFk=s576",
-         "type": "Playlist",
-         "author": "Oswaldo Gonzalez",
-         "length": 76
+         "name": "Mi mix 2",
+         "thumbnail": "https://lh3.googleusercontent.com/E6KdS3EifjlVePpbcdA9OPxit01TncKMaKvjE7Xr6hWZjRwKVTgyqApC5KOxd_twA2MFejBPtm4n7A=w226-h226-l90-rj",
+         "artists": "Dua Lipa, David Guetta, Jason Mraz y Ed Sheeran",
+         "type": "Mix"
       },
       {
-         "name": "'THE' playlist",
-         "thumbnail": "https://yt3.ggpht.com/Y4xDoXyN5ykDLUJF4u4QBBRS7vUiHywSpv9_xmoa8LbYlkZ9Qwex3VtZcru-PJemC03owMc4x2c=s576",
-         "type": "Playlist",
-         "author": "Oswaldo Gonzalez",
-         "length": 165
+         "name": "Mi mix 3",
+         "thumbnail": "https://lh3.googleusercontent.com/PJ9WKOuFtbyOMDO95cdWCOJkQby4ct9LKoB6RQ0aeJMhCIEo687zZnT2UXEIA--qKZ-R_Ges_34gLUQ=w226-h226-l90-rj",
+         "artists": "Billie Eilish, Bruno Mars, Snøw y Tones and I",
+         "type": "Mix"
+      },
+      {
+         "name": "Mi mix 4",
+         "thumbnail": "https://lh3.googleusercontent.com/W4Et7G70P95xuOQmK-lqK7hX5ITl8sB_ZpcETk2C_17OH6LB1qw1IXXulAm4w3gvv6izn7SizyFZMcce=w226-h226-l90-rj",
+         "artists": "Kanye West, Daft Punk, SALES y Vance Joy",
+         "type": "Mix"
+      },
+      {
+         "name": "Mi mix 5",
+         "thumbnail": "https://lh3.googleusercontent.com/bqnkt-etNzr2RTICRPvSXm-ph-P9ISuSHGypnisLWc098A58SdvCTKeWiCfB-7hFa4nhObGLsJ8zbxE=w226-h226-l90-rj",
+         "artists": "Electric Light Orchestra, The Animals, Tenacious D y Creedence Clearwater Revival",
+         "type": "Mix"
+      },
+      {
+         "name": "Mi mix 6",
+         "thumbnail": "https://lh3.googleusercontent.com/2gmo37n0ptu4NPHipaiNVCusQE0zhnt-ZJDOzptII9KZYxHIFhZoAbYGKZDNFKVhD1o26DxRuXCXig=w226-h226-l90-rj",
+         "artists": "Queen, Survivor, Montserrat, Caballé y Europe",
+         "type": "Mix"
+      },
+      {
+         "name": "Mi mix 7",
+         "thumbnail": "https://lh3.googleusercontent.com/1HZMOOqyz6yOv8iHBZ7S2TSaXR_wgpviiSpi26gLVLUIfuF6K7dA06ggCH-kF875qwWv6XBRBjyccxs=w226-h226-l90-rj",
+         "artists": "The Weeknd, Rae Sremmurd, Calvin Harris y Drake",
+         "type": "Mix"
+      }
+   ],
+   "lives": [
+      {
+         "name": "Franco Escamilla (Concierto).- \"La última vez\" y \"5 de Febrero\"",
+         "thumbnail": "https://i.ytimg.com/vi/KctvlrATlxs/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3lxaXvFj_9PSoHsA-vAThVmHdeYZQ",
+         "artist": "Franco Escamilla",
+         "views": "4 M views",
+         "type": "Live",
+         "live": true
+      },
+      {
+         "name": "bad guy (Live From Austin City Limits)",
+         "thumbnail": "https://i.ytimg.com/vi/Q1I3kwHhoUU/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3m426Sjh-m957FYsWNNiGHRSA0OXA",
+         "artist": "Billie Eilish",
+         "views": "6,8 M views",
+         "type": "Live",
+         "live": true
+      },
+      {
+         "name": "Whatever It Takes",
+         "thumbnail": "https://i.ytimg.com/vi/gIcQzusF0Kg/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3n_793FS3M2K2WeaNxqE34Px7NMWg",
+         "artist": "Imagine Dragons",
+         "views": "6,8 M views",
+         "type": "Live",
+         "live": true
+      },
+      {
+         "name": "Billie Eilish - idontwannabeyouanymore",
+         "thumbnail": "https://i.ytimg.com/vi/eAJ3RDLQVDM/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3k5vKx-2QKAyPO55bHS4H161J37dw",
+         "artist": "BBC Radio 1",
+         "views": "4 M views",
+         "type": "Live",
+         "live": true
+      },
+      {
+         "name": "The Scientist",
+         "thumbnail": "https://i.ytimg.com/vi/rLm_aSP369M/hqdefault.jpg?sqp=-oaymwEWCMACELQBIAQqCghQEJADGFogjgJIWg&rs=AMzJL3kny0mA6SS1iNPz-c_f2qYTmIo7XQ",
+         "artist": "Coldplay",
+         "views": "145 M views",
+         "type": "Live",
+         "live": true
+      },
+      {
+         "name": "Yellow (Live)",
+         "thumbnail": "https://i.ytimg.com/vi/mRP72Ib2e9I/sddefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCghqEJQEGHgg6AJIWg&rs=AMzJL3ksEDPHdz4S3Gdqid75y7phac_xzQ",
+         "artist": "Coldplay",
+         "views": "26 M views",
+         "type": "Live",
+         "live": true
       }
    ]
 }

@@ -9,7 +9,6 @@ const PlayBtn = ({ startPlaying }) => {
             height='40'
             viewBox='0 0 24 24'
             style={{ fill: '#fff' }}
-            className='play-btn'
          >
             <path d='M7 6v12l10-6z'></path>
          </svg>

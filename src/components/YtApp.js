@@ -1,14 +1,21 @@
 import React from 'react';
-import Navbar from './Navbar/Navbar';
+import { useModal } from '../hooks/useModal';
+import CurrentSongModal from './Current Song Modal/CurrentSongModal';
 import Reproductor from './Reproductor/Reproductor';
 import AppRouter from './routers/AppRouter';
 
 const YtApp = () => {
+   const [
+      isOpenCurrentSongModal,
+      changeVisibilityCurrentSong,
+      closeCurrentSongModal,
+   ] = useModal();
+
    return (
       <div className='container'>
-         <Navbar />
          <AppRouter />
-         <Reproductor />
+         <Reproductor changeVisibility={changeVisibilityCurrentSong} />
+         <CurrentSongModal isOpen={isOpenCurrentSongModal} />
       </div>
    );
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import PageContainer from '../PageContainer';
-import List from '../List';
-import ListTitle from '../ListTitle';
+import List from '../Lists/List';
+import ListTitle from '../Lists/ListTitle';
 
 const Home = () => {
    return (
@@ -9,8 +9,11 @@ const Home = () => {
          <List type='playlists'>
             <ListTitle>Tus Playlists</ListTitle>
          </List>
-         <List type='playlists'>
-            <ListTitle>Tus Playlists</ListTitle>
+         <List type='mixes'>
+            <ListTitle>Mixes Personalizados</ListTitle>
+         </List>
+         <List type='lives'>
+            <ListTitle>Actuaciones en directo</ListTitle>
          </List>
       </PageContainer>
    );
