@@ -17,7 +17,7 @@ const Navbar = () => {
    const changeVisible = () => setVisible(!visible);
 
    return (
-      <div className={`navbar-wrapper ${scrollY > 0 && 'nav-active'}`}>
+      <div className={`navbar-wrapper ${scrollY !== 0 && 'nav-active'}`}>
          <Link to='/'>
             <img
                src='https://music.youtube.com/img/on_platform_logo_dark.svg'

@@ -6,9 +6,9 @@ export const useFetch = url => {
    const [error, setError] = useState(null);
 
    useEffect(() => {
-      async function getData(url) {
+      const getData = async endpoint => {
          try {
-            const res = await fetch(url);
+            const res = await fetch(endpoint);
 
             if (!res.ok) {
                const err = new Error({
@@ -27,7 +27,7 @@ export const useFetch = url => {
             setIsPending(true);
             setError(err);
          }
-      }
+      };
       getData(url);
    }, [url]);
 

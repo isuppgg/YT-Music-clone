@@ -2,11 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ListInfoText from './ListInfoText';
 import ThreeDotsMenu from '../ThreeDotsMenu';
-import PlayBtn from '../Reproductor/PlayBtn';
+import PlayBtn from '../PlayBtn';
 
 const ListItem = ({ data }) => {
    const { thumbnail, name, type } = data;
-   // console.log(data);
    return (
       <div className='list-item-wrapper'>
          <div className='list-item-thumbnail'>

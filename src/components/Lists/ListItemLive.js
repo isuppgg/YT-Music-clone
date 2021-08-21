@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ListInfoText from './ListInfoText';
 import ThreeDotsMenu from '../ThreeDotsMenu';
-import PlayBtn from '../Reproductor/PlayBtn';
+import PlayBtn from '../PlayBtn';
 
 const ListItemLive = ({ data }) => {
    const { thumbnail, name, type } = data;

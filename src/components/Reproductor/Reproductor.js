@@ -1,20 +1,21 @@
-import React, { useState } from 'react';
-import { useIsPlaying } from '../../hooks/useIsPlaying';
+import React, { useContext } from 'react';
 import PrevSong from './PrevSong';
-import PausePlayBtn from './PausePlayBtn';
 import NextSong from './NextSong';
 import Info from './Info';
 import './reproductor.css';
 import RightControls from './RightControls';
+import { playingSongContext } from '../../context/playingSongContext';
+import PauseBtn from './PauseBtn';
+import MainPlayBtn from './MainPlayBtn';
 
 const Reproductor = ({ changeVisibility }) => {
-   const { isPlaying, play, pause } = useIsPlaying();
+   const { isPlaying } = useContext(playingSongContext);
 
    return (
       <div className='reproductor-wrapper' onClick={changeVisibility}>
          <div id='left-controls'>
             <PrevSong />
-            <PausePlayBtn isPlaying={isPlaying} play={play} pause={pause} />
+            {isPlaying ? <PauseBtn /> : <MainPlayBtn />}
             <NextSong />
          </div>
          <div>

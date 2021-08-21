@@ -7,14 +7,12 @@ import './list.css';
 const List = ({ children, type }) => {
    const url = `http://localhost:5000/${type}`;
    const { data, isPending, error } = useFetch(url);
-
-   console.log(data, error);
+   console.log(data);
    return (
       <div className='horizontal-list-container'>
          {children}
          <div className='horizontal-list-scroll'>
             {data &&
-               !isPending &&
                data.map(el =>
                   el.live ? (
                      <ListItemLive data={el} key={el.name} />

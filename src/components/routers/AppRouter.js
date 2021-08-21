@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from '../pages/Home';
 import Error404 from '../pages/Error404';
@@ -19,4 +19,4 @@ const AppRouter = () => {
    );
 };
 
-export default AppRouter;
+export default memo(AppRouter);

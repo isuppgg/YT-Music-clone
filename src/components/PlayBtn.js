@@ -1,11 +1,10 @@
 import React, { useContext } from 'react';
-import { playingSongContext } from '../../context/playingSongContext';
+import { playingSongContext } from '../context/playingSongContext';
 
-const PauseBtn = () => {
-   const { pause } = useContext(playingSongContext);
-
+const PlayBtn = () => {
+   const { play } = useContext(playingSongContext);
    return (
-      <button onClick={pause}>
+      <button onClick={play}>
          <svg
             xmlns='http://www.w3.org/2000/svg'
             width='40'
@@ -13,10 +12,10 @@ const PauseBtn = () => {
             viewBox='0 0 24 24'
             style={{ fill: '#fff' }}
          >
-            <path d='M8 7h3v10H8zm5 0h3v10h-3z'></path>
+            <path d='M7 6v12l10-6z'></path>
          </svg>
       </button>
    );
 };
 
-export default PauseBtn;
+export default PlayBtn;

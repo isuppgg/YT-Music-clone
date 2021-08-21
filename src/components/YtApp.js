@@ -1,4 +1,5 @@
 import React from 'react';
+import PlayingSongProvider from '../context/playingSongContext';
 import { useModal } from '../hooks/useModal';
 import CurrentSongModal from './Current Song Modal/CurrentSongModal';
 import Reproductor from './Reproductor/Reproductor';
@@ -12,11 +13,13 @@ const YtApp = () => {
    ] = useModal();
 
    return (
-      <div className='container'>
-         <AppRouter />
-         <Reproductor changeVisibility={changeVisibilityCurrentSong} />
-         <CurrentSongModal isOpen={isOpenCurrentSongModal} />
-      </div>
+      <PlayingSongProvider>
+         <div className='container'>
+            <AppRouter />
+            <Reproductor changeVisibility={changeVisibilityCurrentSong} />
+            <CurrentSongModal isOpen={isOpenCurrentSongModal} />
+         </div>
+      </PlayingSongProvider>
    );
 };
 

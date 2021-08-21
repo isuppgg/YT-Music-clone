@@ -34,12 +34,13 @@ const RightControls = ({ showModal }) => {
                </g>
             </svg>
          </button>
-         <button onClick={showModal}>
-            <svg
-               viewBox='0 0 24 24'
-               className='transparent right-control-item'
-               style={{ transform: 'rotate(180deg)' }}
-            >
+         <button
+            onClick={() => {
+               console.log(this);
+               showModal();
+            }}
+         >
+            <svg viewBox='0 0 24 24' className='transparent right-control-item'>
                <g>
                   <path d='M7 10l5 5 5-5z'></path>
                </g>

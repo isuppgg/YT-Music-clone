@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { playingSongContext } from '../../context/playingSongContext';
 
-const PlayBtn = ({ startPlaying }) => {
+const MainPlayBtn = () => {
+   const { play } = useContext(playingSongContext);
+
    return (
-      <button onClick={startPlaying}>
+      <button onClick={play}>
          <svg
             xmlns='http://www.w3.org/2000/svg'
             width='40'
@@ -16,4 +19,4 @@ const PlayBtn = ({ startPlaying }) => {
    );
 };
 
-export default PlayBtn;
+export default MainPlayBtn;
